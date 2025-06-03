@@ -1,5 +1,5 @@
 {
-    "name": "ycode/fruits",
+    "name": "ycode/vehicules",
     "autoload": {
         "psr-4": {
             "App\\": "App/"
