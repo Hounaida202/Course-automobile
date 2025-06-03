@@ -95,7 +95,7 @@
     <div id="vehicleModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
         <div class="bg-gray-800 rounded-lg p-8 max-w-md w-full mx-4">
             <h3 class="text-2xl font-bold mb-6">Ajouter un Véhicule</h3>
-            <form id="vehicleForm" method="POST" action="/fruits/store">
+            <form id="vehicleForm" method="POST" action="/vehicules/store">
                  <input type="hidden" name="course_id" value="<?= $course->getId() ?>">
                 <div class="mb-4">
                     <label class="block text-gray-300 text-sm font-bold mb-2">Nom du véhicule</label>
@@ -145,7 +145,6 @@ function closeModal() {
     document.getElementById('vehicleModal').classList.add('hidden');
 }
 
-// Optionnel : Fermer le modal si on clique à l’extérieur du contenu
 
 
     

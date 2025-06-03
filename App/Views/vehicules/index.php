@@ -41,7 +41,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Course 1 -->
                  <?php foreach($courses as $course):?>
-                <a href="/fruits/show/<?= $course->getId() ?>" class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
+                <a href="/vehicules/show/<?= $course->getId() ?>" class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition-colors">
                     <h3 class="text-xl font-bold text-blue-400 mb-3"><?=htmlspecialchars($course->getNom())?></h3>
                     <!-- <p class="text-gray-300 mb-4">Course de vitesse ultime sur circuit fermé</p> -->
                     <div class="bg-gray-700 rounded p-3">
